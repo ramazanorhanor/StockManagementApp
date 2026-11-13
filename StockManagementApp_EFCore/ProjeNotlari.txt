@@ -1,0 +1,6 @@
+﻿
+dotnet tool install --global dotnet-ef
+
+dotnet ef dbcontext scaffold "Server=(localdb)\mssqllocaldb;Database=StockManagementERP;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c StockManagementDbContext -f --no-pluralize
+dotnet ef dbcontext scaffold "Server=(localdb)\mssqllocaldb;Database=StockManagementERP;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c StockManagementDbContext -f --no-pluralize
+

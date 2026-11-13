@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4ca021821641481b8f0365f40176d4f7" Name="Diagram1">
+        <EntityTypeShape EntityType="StockManagementERPModel.BillOfMaterial" Width="1.5" PointX="7.5" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.BillOfMaterialLine" Width="1.5" PointX="9.75" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Brand" Width="1.5" PointX="0.75" PointY="54.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Category" Width="1.5" PointX="0.75" PointY="61.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Company" Width="1.5" PointX="6.75" PointY="75.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Currency" Width="1.5" PointX="13.25" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Customer" Width="1.5" PointX="9" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Employee" Width="1.5" PointX="3" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ExchangeRate" Width="1.5" PointX="15.5" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.GoodsReceipt" Width="1.5" PointX="8.25" PointY="60.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.GoodsReceiptLine" Width="1.5" PointX="10.5" PointY="54.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Inventory" Width="1.5" PointX="12.5" PointY="49.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.InventoryValuation" Width="1.5" PointX="7.5" PointY="52.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.InventoryValuationLayer" Width="1.5" PointX="12.5" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.KitAssemblyConsumption" Width="1.5" PointX="18.75" PointY="51.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.KitAssemblyOrder" Width="1.5" PointX="9.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.KitAssemblyOutput" Width="1.5" PointX="18.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Location" Width="1.5" PointX="13.5" PointY="74.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.LocationCapacity" Width="1.5" PointX="15.75" PointY="72.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Lot" Width="1.5" PointX="13.5" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Manufacturer" Width="1.5" PointX="0.75" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Number" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PickList" Width="1.5" PointX="16.5" PointY="63.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PickListLine" Width="1.5" PointX="18.75" PointY="59.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PriceList" Width="1.5" PointX="5.25" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PriceListItem" Width="1.5" PointX="7.5" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Product" Width="1.5" PointX="3" PointY="55.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ProductAttribute" Width="1.5" PointX="0.75" PointY="51.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ProductAttributeValue" Width="1.5" PointX="3" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ProductBarcode" Width="1.5" PointX="10.5" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ProductLifecycle" Width="1.5" PointX="5.25" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ProductRevision" Width="1.5" PointX="8.25" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ProductSupplier" Width="1.5" PointX="15.5" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ProductVariant" Width="1.5" PointX="5.25" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseInvoice" Width="1.5" PointX="18.5" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseInvoiceLine" Width="1.5" PointX="20.75" PointY="47.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseOrder" Width="1.5" PointX="13.25" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseOrderApproval" Width="1.5" PointX="24.5" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseOrderLine" Width="1.5" PointX="15.5" PointY="45.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseRequisition" Width="1.5" PointX="5.25" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseRequisitionLine" Width="1.5" PointX="7.5" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseReturn" Width="1.5" PointX="19.5" PointY="68.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.PurchaseReturnLine" Width="1.5" PointX="21.75" PointY="52.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.RequestForQuotation" Width="1.5" PointX="8.25" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.RFQLine" Width="1.5" PointX="10.5" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SafetyStockPolicy" Width="1.5" PointX="16.5" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesInvoice" Width="1.5" PointX="16.5" PointY="67.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesInvoiceLine" Width="1.5" PointX="18.75" PointY="64.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesOrder" Width="1.5" PointX="17.25" PointY="81.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesOrderApproval" Width="1.5" PointX="21.5" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesOrderLine" Width="1.5" PointX="16.5" PointY="58.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesQuote" Width="1.5" PointX="11.25" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesQuoteLine" Width="1.5" PointX="13.5" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesReturn" Width="1.5" PointX="19.5" PointY="82.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SalesReturnLine" Width="1.5" PointX="21.75" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SerialNumber" Width="1.5" PointX="7.5" PointY="105.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Shipment" Width="1.5" PointX="19.5" PointY="71.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.ShipmentLine" Width="1.5" PointX="21.75" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockAdjustment" Width="1.5" PointX="21.5" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockAdjustmentLine" Width="1.5" PointX="23.75" PointY="48" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockAllocation" Width="1.5" PointX="27" PointY="54.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockCount" Width="1.5" PointX="15.5" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockCountLine" Width="1.5" PointX="17.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockMovement" Width="1.5" PointX="15.75" PointY="75.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockMovementReason" Width="1.5" PointX="13.5" PointY="79.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockReservation" Width="1.5" PointX="24.75" PointY="53.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockTransfer" Width="1.5" PointX="21.5" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.StockTransferLine" Width="1.5" PointX="23.75" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Supplier" Width="1.5" PointX="13.25" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SupplierQuote" Width="1.5" PointX="15.5" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.SupplierQuoteLine" Width="1.5" PointX="17.75" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.TaxCode" Width="1.5" PointX="13.25" PointY="64.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.UnitOfMeasure" Width="1.5" PointX="0.75" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.UnitOfMeasureConversion" Width="1.5" PointX="5.25" PointY="61.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.Warehouse" Width="1.5" PointX="9" PointY="74.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.WarehouseZone" Width="1.5" PointX="11.25" PointY="75.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.zz_BillOfMaterialLine_Yedek" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.vw__KRITIKTABLOLARIN_SATIR_SAYILARI" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.vw_ANLAMLI_VERI_TESTI" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.vw_BOSTABLOKONTROLU" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.vw_ILISKISELBUTUNLUKKONTROLLERI" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.vw_Sorgu5_tablolardakiSatirSayisi" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StockManagementERPModel.vw_Sorgu6_VeriButunluguFK_CHECK_ihlali" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="StockManagementERPModel.FK_BillOfMaterial_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_BillOfMaterialLine_Bom" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyOrder_Bom" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_BillOfMaterialLine_Component" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Product_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Category_Parent" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Company_BaseCurrency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Warehouse_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Customer_DefaultCurrency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ExchangeRate_FromCurrency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ExchangeRate_ToCurrency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PriceList_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseOrder_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesOrder_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Supplier_DefaultCurrency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SupplierQuote_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesInvoice_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesOrder_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesQuote_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesReturn_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_GoodsReceipt_ReceivedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyOrder_CompletedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PickList_AssignedTo" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductLifecycle_ChangedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductRevision_ApprovedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseOrderApproval_Approver" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseRequisition_RequestedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesOrderApproval_Approver" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAdjustment_ApprovedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockCountLine_CountedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockMovement_CreatedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockTransfer_RequestedBy" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_GoodsReceipt_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_GoodsReceipt_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_GoodsReceiptLine_Receipt" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_GoodsReceiptLine_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_GoodsReceiptLine_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_GoodsReceiptLine_OrderLine" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_GoodsReceiptLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseInvoiceLine_ReceiptLine" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Inventory_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Inventory_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Inventory_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_InventoryValuation_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_InventoryValuation_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_InventoryValuationLayer_Movement" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_InventoryValuationLayer_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyConsumption_Component" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyConsumption_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyConsumption_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyConsumption_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyOrder_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyOutput_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyOutput_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_KitAssemblyOutput_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Location_Parent" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Location_Zone" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_LocationCapacity_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PickListLine_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAdjustmentLine_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAllocation_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockCountLine_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockMovement_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockReservation_Location" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Lot_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Lot_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PickListLine_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseReturnLine_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesReturnLine_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ShipmentLine_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAdjustmentLine_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockCountLine_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockMovement_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockTransferLine_Lot" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PickList_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PickList_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PickListLine_PickList" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PickListLine_OrderLine" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PriceListItem_PriceList" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PriceListItem_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Product_BaseUom" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductLifecycle_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductRevision_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductVariant_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_UOMConversion_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductAttributeValue_Attribute" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductBarcode_Uom" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductBarcode_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductSupplier_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ProductSupplier_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseOrderLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseRequisitionLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseReturnLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_RFQLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SafetyStockPolicy_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesOrderLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesQuoteLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesReturnLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SerialNumber_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ShipmentLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAdjustmentLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockCountLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockMovement_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockReservation_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockTransferLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SupplierQuoteLine_Variant" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseInvoice_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseInvoice_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseInvoiceLine_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseInvoiceLine_OrderLine" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseOrder_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseOrder_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseOrderApproval_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseOrderLine_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseReturn_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseOrderLine_TaxCode" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseRequisitionLine_Requisition" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseReturn_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseReturn_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_PurchaseReturnLine_Return" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_RFQLine_Rfq" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SupplierQuote_Rfq" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SupplierQuoteLine_RfqLine" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SafetyStockPolicy_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesInvoice_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesInvoiceLine_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesInvoiceLine_OrderLine" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesOrder_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesOrderApproval_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesOrderLine_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesReturn_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Shipment_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesOrderLine_TaxCode" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ShipmentLine_OrderLine" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockReservation_SalesOrderLine" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesQuoteLine_Quote" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesReturn_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SalesReturnLine_Return" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockMovement_Serial" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_Shipment_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_ShipmentLine_Shipment" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAdjustment_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAdjustment_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAdjustmentLine_Adjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockAllocation_Reservation" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockCount_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockCountLine_Count" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockMovement_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockTransfer_FromWarehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockTransfer_ToWarehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_StockTransferLine_Transfer" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SupplierQuote_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_SupplierQuoteLine_Quote" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_UOMConversion_FromUom" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_UOMConversion_ToUom" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.FK_WarehouseZone_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="StockManagementERPModel.ProductVariantAttributeValue" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

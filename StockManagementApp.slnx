@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StockManagementApp_EF6/StockManagementApp_EF6.csproj" />
+  <Project Path="StockManagementApp_EFCore/StockManagementApp_EFCore.csproj" />
+</Solution>
