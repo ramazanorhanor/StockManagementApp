@@ -15,4 +15,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Curriculum\Modul_B_DynamicQuery\" />
+    <Folder Include="Curriculum\Modul_C_Aggregation\" />
+    <Folder Include="Curriculum\Modul_D_Paging\" />
+    <Folder Include="Curriculum\Modul_E_Performance\" />
+    <Folder Include="Curriculum\Modul_F_RealERP\" />
+  </ItemGroup>
+
 </Project>
