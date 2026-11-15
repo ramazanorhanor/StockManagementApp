@@ -73,3 +73,21 @@ namespace StockManagementApp_EFCore.Curriculum.Modul_A_QuerySyntax
         }
     }
 }
+
+/*
+ SELECT top 10
+    [p0].[Name] AS [UrunAdi], 
+    [s].[Quantity] AS [Miktar], 
+    CAST([s].[Quantity] AS decimal(18,4)) * [s].[UnitPrice] AS [BrutTutar], 
+    CAST([s].[Quantity] AS decimal(18,4)) * [s].[UnitPrice] * (1.0 + [t].[RatePercent] / 100.0) AS [NetTutar], 
+    CASE WHEN CAST([s].[Quantity] AS decimal(18,4)) * [s].[UnitPrice] * (1.0 + [t].[RatePercent] / 100.0) > 10000.0 
+         THEN N'Yüksek Ciro' 
+         ELSE N'Normal' 
+    END AS [Etiket]
+FROM [SalesOrderLine] AS [s]
+INNER JOIN [SalesOrder] AS [s0] ON [s].[SalesOrderId] = [s0].[Id]
+INNER JOIN [TaxCode] AS [t] ON [s].[TaxCodeId] = [t].[Id]
+INNER JOIN [ProductVariant] AS [p] ON [s].[ProductVariantId] = [p].[Id]
+INNER JOIN [Product] AS [p0] ON [p].[ProductId] = [p0].[Id]
+WHERE [s0].[Status] = N'Closed' AND DATEPART(year, [s0].[OrderDateUtc]) = 2026
+ */

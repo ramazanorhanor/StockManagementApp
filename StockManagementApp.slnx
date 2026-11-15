@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="StockManagementApp_EF6/StockManagementApp_EF6.csproj" />
+  <Project Path="StockManagementApp_EF6/StockManagementApp_EF6.csproj" Id="4d8a7678-a871-49e1-b0ae-e17ee6c537ed" />
   <Project Path="StockManagementApp_EFCore/StockManagementApp_EFCore.csproj" />
 </Solution>

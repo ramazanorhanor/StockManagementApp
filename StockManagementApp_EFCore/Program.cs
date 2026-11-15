@@ -66,6 +66,7 @@ namespace StockManagementApp_EFCore
                 Console.WriteLine("  📚 STOCKMANAGEMENTERP - LINQ MASTER CURRICULUM");
                 Console.WriteLine("==================================================");
                 Console.WriteLine("  [A1] Let Keyword Kullanımı (Modül A)");
+                Console.WriteLine("  [A2] Into / Query Continuation (Modül A)");
                 Console.WriteLine("  [Q]  Çıkış");
                 Console.WriteLine("==================================================");
                 Console.Write("\nModül Seçiniz: ");
@@ -78,6 +79,9 @@ namespace StockManagementApp_EFCore
                 {
                     case "A1":
                         A1_LetKeyword.Run();
+                        break;
+                    case "A2":
+                        A2_IntoKeyword.Run();
                         break;
                     case "Q":
                         return;
